@@ -49,7 +49,7 @@ public class MyServlet extends HttpServlet {
 				session.setAttribute("login", login);
 				out.println("<h3>Привет, " + session.getAttribute("name") + "!</h3>");
 				out.print("<br>");
-				out.print("<a href='http://localhost:8080/WebApp/LogOut'>Выйти</a>");
+				out.print("<a href='http://localhost:8080/LogInAndLogOut/LogOut'>Выйти</a>");
 			} else {
 				out.print("<h3>Пароль введен не верно! Попробуйте еще раз!</h3>");
 				out.print("<a href='http://localhost:8080/LogInAndLogOut/StartPage.html'>На главную</a>");
